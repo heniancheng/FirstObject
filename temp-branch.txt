@@ -1,0 +1,10 @@
+git checkout -b new
+=git branch new;git checkout new
+
+git merge branch-name ( merge other branch based on HEAD)
+=fast forward  (HEAD before branch-name)
+
+git branch -d branch-name   (delete branch)
+
+merge commit: a new commit has a few ancestors
+!=fast forward

@@ -1,0 +1,3 @@
+git commit --amend (redo last commit)
+git reset HEAD file (nodo stage)
+git checkout -- file (nodo modify)

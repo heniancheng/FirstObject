@@ -1,0 +1,6 @@
+git tag         (list all tag) 
+git show tag-name         (details)
+git tag -a[-s] tag-name -m "info"  (creat)
+git tag -v tag-name           (verify)
+git tag -a tag-name hash          (creat for hisotry)
+git push origin tag-name[--tags]    (push tag to network)

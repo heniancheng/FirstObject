@@ -1,0 +1,22 @@
+1
+git object: commit,tree,blob
+branch=pointer:master,HEAD(current branch),other branch
+2
+git branch branch-name  (create based on current branch)
+git checkout branch-name  (change HEAD)
+
+3
+modify in master
+
+modify in testing will be conflict
+4
+git branch [-v][--merged][--no-merged] (list branch [last commit msg])
+5
+git fetch origin
+origin/master:remote branch
+can have different remote servers
+git push origin serverfix[:remote-branch-name]
+=origin/serverfix[=origin/remote-branch-name]
+git merge origin/serverfix
+git checkout -b serverfix origin/serverfix     (creat a branch)  =tracking branch:can use "git push,git pull"
+git push origin :serverfix    (delete remote serverfix)

@@ -1,0 +1,4 @@
+git rebase branch-name    (to rebase based on rebased branch) 
+git rebase --onto master server client  (to rebase client based on master)
+:master add client and no server
+git rebase master server   (to rebase server based on master)

@@ -1,0 +1,7 @@
+git remote add name url 
+git fetch remote-name
+git push remote-name(origin) branch-name(master)
+git pull
+git remote show origin
+git remote rename old new
+git remote rm remote-name

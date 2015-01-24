@@ -1,0 +1,4 @@
+test rm command
+shoud put staged
+git rm remove.txt  (delete staged file)
+or git rm --cached remove.txt (don't delete workspace)
